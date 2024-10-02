@@ -1,0 +1,49 @@
+!pytest test_se1.py -v
+
+
+======================================= test session starts ========================================
+platform linux -- Python 3.10.12, pytest-7.4.4, pluggy-1.5.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /content
+configfile: pytest.ini
+plugins: anyio-3.7.1, typeguard-4.3.0
+collected 28 items                                                                                 
+
+test_se1.py::test_add_one_and_multiply_1 PASSED                                              [  3%]
+test_se1.py::test_add_one_and_multiply_2 PASSED                                              [  7%]
+test_se1.py::test_add_one_and_multiply_3 PASSED                                              [ 10%]
+test_se1.py::test_add_one_and_multiply_4 PASSED                                              [ 14%]
+test_se1.py::test_add_one_and_multiply_5 PASSED                                              [ 17%]
+test_se1.py::test_add_one_and_multiply_6 PASSED                                              [ 21%]
+test_se1.py::test_out_of_range_1 PASSED                                                      [ 25%]
+test_se1.py::test_out_of_range_2 PASSED                                                      [ 28%]
+test_se1.py::test_out_of_range_3 PASSED                                                      [ 32%]
+test_se1.py::test_out_of_range_4 PASSED                                                      [ 35%]
+test_se1.py::test_number_string_1 PASSED                                                     [ 39%]
+test_se1.py::test_number_string_2 PASSED                                                     [ 42%]
+test_se1.py::test_number_string_3 PASSED                                                     [ 46%]
+test_se1.py::test_num_divisible_1 PASSED                                                     [ 50%]
+test_se1.py::test_num_divisible_2 PASSED                                                     [ 53%]
+test_se1.py::test_num_divisible_3 PASSED                                                     [ 57%]
+test_se1.py::test_num_divisible_4 PASSED                                                     [ 60%]
+test_se1.py::test_num_divisible_5 PASSED                                                     [ 64%]
+test_se1.py::test_num_divisible_6 PASSED                                                     [ 67%]
+test_se1.py::test_count_greater_than_val_1 PASSED                                            [ 71%]
+test_se1.py::test_count_greater_than_val_2 PASSED                                            [ 75%]
+test_se1.py::test_count_greater_than_val_3 PASSED                                            [ 78%]
+test_se1.py::test_count_greater_than_val_4 PASSED                                            [ 82%]
+test_se1.py::test_count_greater_than_val_5 PASSED                                            [ 85%]
+test_se1.py::test_negate_list_1 PASSED                                                       [ 89%]
+test_se1.py::test_negate_list_2 PASSED                                                       [ 92%]
+test_se1.py::test_negate_list_3 PASSED                                                       [ 96%]
+test_se1.py::test_negate_list_4 PASSED                                                       [100%]
+
+========================================= warnings summary =========================================
+../usr/local/lib/python3.10/dist-packages/_pytest/config/__init__.py:1373
+  /usr/local/lib/python3.10/dist-packages/_pytest/config/__init__.py:1373: PytestConfigWarning: Unknown config option: json_report
+  
+    self._warn_or_fail_if_strict(f"Unknown config option: {key}\n")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================== 28 passed, 1 warning in 0.05s ===================================
+
